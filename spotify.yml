@@ -13,5 +13,4 @@
   - name: Install package "spotify-client"
     apt: 
      name: spotify-client
-     update_cache: yes
 
