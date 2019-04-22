@@ -1,6 +1,6 @@
 ---
 - hosts: spotify
-  remote_user: root
+  sudo: yes
   tasks:
   - name: Add an apt key by id from a keyserver
     apt_key:
@@ -13,4 +13,3 @@
   - name: Install package "spotify-client"
     apt: 
      name: spotify-client
-
