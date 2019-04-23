@@ -2,7 +2,7 @@
 - hosts: spotify
   sudo: yes
   tasks:
-  - name: Add an apt key by id from a keyserver
+  - name: Add apt key
     apt_key:
      keyserver: keyserver.ubuntu.com
      id: 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
